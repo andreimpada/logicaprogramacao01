@@ -1,0 +1,238 @@
+Exercícios práticos - Algoritmos 02
+
+Cada exercício apresenta uma tarefa simples e cotidiana! Bora lá?
+
+1. Fazer um café coado
+   . Pego um bule
+   . Adiciono agua no bule 
+   . levo ao fogo medio ate fever a agua
+   . Adiciono açucar
+   . adiciono café
+   . desligo assim que a agua espumar
+   . pego um filtro e um coador
+   . adiciono o filtro no coador
+   . pego uma garrafa termica
+   . coloco o coador na boca da garrafa termica
+   . derramo o café no coador
+   . espero até acabar
+   . fim
+
+
+2. Configurar o despertador no celular
+ 
+   .desbloqueio o celular
+   .entro em horas
+   .adicionar despertador
+   .coloco o horario desejado
+   .salvar
+   . fim
+
+
+
+3. Ligar um computador
+
+   .ligo o estabilizador
+   .aperto botão power na cpu
+   .fim
+
+
+
+4. Carregar o celular
+
+   .pego o carregador
+   .ligo o usb no aparelho celular
+   .conecto o carregador na tomada
+   . fim
+
+5. Assistir a um filme em casa
+
+  .ligo o computador ou televisão
+  .abro nextflix
+  .procuro algo interessante
+  .dou play
+  .fim
+
+
+6. Regar uma planta
+
+   .pego uma mangueira
+   .ligo a mangueira
+   .aponto para as plantas 
+   .desligo a mangueira
+   . fim
+
+7. Fazer uma pipoca
+
+   .pego a pipoca
+   .abro a embalagem
+   .coloco o conteudo dentro do microondas
+   .coloco por 3 a 5 minutos
+   .retiro a pipoca pronta
+   . fim
+
+
+8. Participar de uma reunião online
+
+   .ligo computador
+   .abro o aplicativo de reunião
+   .entro na chamada 
+   .espero a reunião começar
+   .fim
+
+
+9. Criar uma lista com as tarefas da semana
+
+  .abro um aplicativo de texto
+  .adiciono minhas prioridades
+  .faço uma conferencia para ver se não esqueci nada
+  .fim.
+
+
+10. Assistir a um vídeo do Diego no canal da Rocketseat 💜
+
+ .Abro o site da rocketseat
+ .digito video de diego
+ .escolho algum video dele
+ .fim
+
+
+
+### 👉 Fluxograma
+
+Agora que você aprendeu como funciona um fluxograma, é hora de praticar!
+Use as formas corretas para representar cada passo e siga a ordem lógica para resolver os exercícios. Lembre-se: fluxograma é como montar um mapa de instruções!
+
+1. Calcular o dobro de um número
+2. Verificar se o número é menor que 10
+3. Contar até 5
+
+
+
+1-              .  (inicio)
+                nx 2 (ação)
+                n   (entrada)
+                resultado= n x 2 (saida)
+                . (fim)
+
+
+2-            . (inicio)
+
+              n=<10 (ação)
+              n (entrada)
+              resultado= n<=10 true ou n>10 false (saida)
+               . (fim)
+
+
+3-               .(inicio)
+                 print 1,2,3,4,5 (ação)
+                 start (entrada)
+                print 1,2,3,4,5 (saida)
+                      . (fim)
+
+
+
+### 👉 Pseudocódigo
+
+Agora bora para os exercícios de pseudocódigo! Eles foram criados para ajudar você a praticar os principais conceitos da lógica de programação: entrada e saída de dados, variáveis, estruturas condicionais e de repetição. Cada exemplo traz uma situação simples do dia a dia da programação, com foco em raciocínio lógico e clareza na construção dos passos! 
+
+1. Imprimir um número em tela
+
+Início
+ Escreva ("digite um número")
+ Leia número
+ Escreva ("Você digitou"numero)
+  Fim
+
+2. Somar dois números
+
+Início
+ Leia numero 1
+ Leia numero 2
+ soma= numero 1 + numero 2
+ escreva ("Resultado:",soma)
+ Fim
+
+
+3. Contar de 1 até 10 usando loop
+
+Inicio
+i=1
+enquanto i<10
+escreva (i)
+i+1+1
+Fim
+
+esse eu colei.. 
+
+4. Verificar se o número é par ou ímpar
+
+Início
+Leia numero
+Se numero /2 =0 então
+escreva ("par")
+Se não 
+Escreva ("impar")
+Fim
+
+5. Verificar se número é positivo, negativo ou zero
+
+Início
+Leia numero
+Se numero > 0 então
+escreva ("positivo")
+Se não se num < 0 então
+escreva ("negativo")
+senão
+escreva ("zero")
+Fim
+
+6. Calcular média de 3 notas
+
+Início
+leia n1,n2,n3
+media=(n1+n2+n3)/3
+escreve ("media",media)
+Fim
+
+7. Verificar se aluno foi aprovado (com média ≥ 5)
+
+Início
+Leia nota1, nota2
+ media= (nota1+nota2)/2
+ se media > 5 então
+ escreva ("Aprovado")
+ senão 
+ escreva("Reprovado")
+Fim
+
+8. Maior entre dois números
+Leia numero 1,numero 2
+Se numero 1>numero 2 então
+Escreva ("Maior:",numero 1")
+senão
+ Escreva ("Maior:",numero 2")
+Fim
+
+9. Mostrar os múltiplos de 3 até 30
+Início
+  i ← 1
+  Enquanto i ≤ 30
+    Se i % 3 = 0 então
+      Escreva(i)
+    i ← i + 1
+Fim
+
+
+esse eu colei.
+
+10. Contagem regressiva de 10 até 1
+
+Início
+  i ← 10
+  Enquanto i ≥ 1
+    Escreva(i)
+    i ← i - 1
+Fim
+
+
+Acredito que está muito avançado esses exercicios para alguem que comprou o curso ontem.. só consegui fazer alguns colando.. inclusive usar o github tbm é muito dificil. mas vamos lá.
