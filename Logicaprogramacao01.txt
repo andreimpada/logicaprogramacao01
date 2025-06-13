@@ -1,0 +1,135 @@
+1- Eu estudei para a prova "E" fiz todos os exercícios.     E (∧) é verdadeiro apenas se ambas as proposições forem verdadeiras;
+
+    A - eu estudei para a prova 
+    B - e fiz todos os exercicios
+
+a b A^b
+v v  v    <- CERTA
+v f  f
+f v  f	
+f f  f
+
+2- Eu vou ao cinema "OU" fico em casa assistindo séries.     OU (∨) é verdadeiro se pelo menos uma das proposições for verdadeira;
+
+    A - eu vou ao cinema
+    B - fico em casa assisinto series
+
+a b AvB
+v v  v  <- CERTA
+v f  v  <- CERTA
+f v  v  <- CERTA
+f f  f
+
+
+3- "SE" eu acordar cedo, "ENTÃO" conseguirei pegar o ônibus. SE ENTÃO (→) é falso apenas quando a primeira proposição é verdadeira e a segunda é falsa.
+
+     A - se eu acordar cedo
+     B - conseguirei pegar o onibus
+
+a b A->B
+v v  v  <-CERTA
+v f  f
+f v  v  <-CERTA
+f f  v  <-CERTA
+
+4- "SE" eu estudar muito, "ENTÃO" passarei na prova "E" ganharei um presente. 
+
+Conectivos: SE ENTÃO (→) e E (∧)
+
+    A - estudar muito
+    B - passerei na prova
+    C - Ganharei um presente
+
+A B C B^C A(B^C)
+v v v  v    v 
+v v f  f    f
+v f v  f    f
+v f f  f    f
+f v v  v    v
+f v f  f    v
+f f v  f    v
+f f f  f    v
+
+5- Eu vou jogar videogame ou vou estudar lógica de programação.
+    A- eu vou jogar videogame
+    B- vou estudar logica de programação
+
+a b 	AvB
+v v      v
+v f      v
+f v      v
+f f      f
+
+
+6- Eu comi pizza e tomei refrigerante.
+
+     A- Eu comi pizza
+     B- Tomei refrigerante
+ 
+a b  A^B
+v v   v
+v f   f
+f v   f
+f f   f
+
+
+7-Se eu tiver dinheiro, então viajarei nas férias.         SE ENTÃO ->
+
+       A- tiver dinheiro
+       B- Viajarei nas ferias
+
+a b  A->B
+v v   v 
+v f   f
+f v   v
+f f   v
+
+8-Eu lerei um livro se e somente se terminar meu trabalho.      SE E SOMENTE SE (↔)
+
+      A-lerei um livro
+      B- terminar meu trabalho
+
+a b  A<->B
+v v    v
+v f    f
+f v    f
+f f    v
+
+ 
+9-Se estiver sol, então irei à praia ou ao parque.
+
+
+Expressão: a → (b ∨ c)
+
+   A-estiver sol
+   b- praia ou parque
+   c- ireia ao parque
+ 
+a b c BvC  A->(BvC)
+v v v  v     v
+v v f  v     v 
+v f v  v     v
+v f f  f     f 
+f v v  v     v
+f v f  v     v
+f f v  v     v
+f f f  f     v
+
+  
+
+
+
+
+10- Eu farei um bolo se e somente se comprar os ingredientes.
+
+A- farei um bolo
+B- comprar os ingredientes
+
+a b A<->B
+v v  v 
+v f  f
+f v  f
+f f  v
+ 
+
+
