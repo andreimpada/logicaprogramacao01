@@ -40,25 +40,26 @@ Conectivos: SE ENTÃO (→) e E (∧)
     B - passerei na prova
     C - Ganharei um presente
 
-A B C B^C A(B^C)
-v v v  v    v 
-v v f  f    f
+A B C B^C  A(B^C)  
+v v v  v    v   <- CERTA
+v v f  f    f 
 v f v  f    f
 v f f  f    f
-f v v  v    v
-f v f  f    v
-f f v  f    v
-f f f  f    v
+f v v  v    v   <- CERTA
+f v f  f    v   <- CERTA
+f f v  f    v   <- CERTA
+f f f  f    v   <- CERTA
+
 
 5- Eu vou jogar videogame ou vou estudar lógica de programação.
     A- eu vou jogar videogame
     B- vou estudar logica de programação
 
 a b 	AvB
-v v      v
-v f      v
-f v      v
-f f      f
+v v      v <- CERTA
+v f      v <- CERTA
+f v      v <- CERTA
+f f      f 
 
 
 6- Eu comi pizza e tomei refrigerante.
@@ -67,7 +68,7 @@ f f      f
      B- Tomei refrigerante
  
 a b  A^B
-v v   v
+v v   v <- CERTA
 v f   f
 f v   f
 f f   f
@@ -79,10 +80,10 @@ f f   f
        B- Viajarei nas ferias
 
 a b  A->B
-v v   v 
+v v   v <- CERTA
 v f   f
-f v   v
-f f   v
+f v   v <- CERTA
+f f   v <- CERTA
 
 8-Eu lerei um livro se e somente se terminar meu trabalho.      SE E SOMENTE SE (↔)
 
@@ -90,10 +91,10 @@ f f   v
       B- terminar meu trabalho
 
 a b  A<->B
-v v    v
+v v    v <- CERTA
 v f    f
-f v    f
-f f    v
+f v    f 
+f f    v <- CERTA
 
  
 9-Se estiver sol, então irei à praia ou ao parque.
@@ -106,14 +107,14 @@ Expressão: a → (b ∨ c)
    c- ireia ao parque
  
 a b c BvC  A->(BvC)
-v v v  v     v
-v v f  v     v 
-v f v  v     v
-v f f  f     f 
-f v v  v     v
-f v f  v     v
-f f v  v     v
-f f f  f     v
+v v v  v     v <- CERTA
+v v f  v     v <- CERTA
+v f v  v     v <- CERTA
+v f f  f     f
+f v v  v     v <- CERTA
+f v f  v     v <- CERTA
+f f v  v     v <- CERTA
+f f f  f     v <- CERTA
 
   
 
@@ -126,10 +127,10 @@ A- farei um bolo
 B- comprar os ingredientes
 
 a b A<->B
-v v  v 
+v v  v <- CERTA
 v f  f
 f v  f
-f f  v
+f f  v <- CERTA
  
 
 
